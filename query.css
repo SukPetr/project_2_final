@@ -1,0 +1,42 @@
+@media (max-width: 660px) {
+  header {
+    position: relative;
+    height: 70px;
+  }
+  header nav {
+    display: none;
+    position: relative;
+    top: 230px;
+    background-color: #7e0b0b;
+    width: 25%;
+    left: 100px;
+  }
+
+  header nav ul {
+    text-align: left;
+    padding-left: 0%;
+  }
+}
+
+@media (max-width: 660px) {
+  .menu-icon {
+    display: flex;
+    color: rgb(206, 189, 37);
+    font-size: 30px;
+  }
+}
+@media (max-width: 660px) {
+  header nav li {
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 660px) {
+  header nav {
+    display: block !important;
+  }
+}
